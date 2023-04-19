@@ -42,12 +42,15 @@ app.get("/", function (req, res) {
                         <meta name="viewport" content="width=device-width, initial-scale=1.0">
                         <title>Document</title>
                     </head>
-                    <body>
-                        <h1>Seconds as your boyfriend that I wouldn't trade for the world:</h1>
-                        <h1 id="counter">
-                    
-                        </h1>
-                        <h1> - Nick </h1>
+                    <body style="background-color: black; color: red;">
+                        <div style="text-align: center">
+                            <h1>Jayde,</h1>
+                            <h1>These are the amount of seconds I've spent as your boyfriend, that I wouldn't trade for the world:</h1>
+                            <h1 id="counter">
+                        
+                            </h1>
+                            <h1 style="color: turquoise;"> - Nick </h1>
+                        </div>
                         <script>
                             console.log('adf')
                             setInterval(flashText, 1000);
