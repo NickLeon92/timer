@@ -45,7 +45,7 @@ app.get("/", function (req, res) {
                     <body style="background-color: black; color: red;">
                         <div style="text-align: center">
                             <h1>Jayde,</h1>
-                            <h1>These are the amount of seconds I've spent as your boyfriend, that I wouldn't trade for the world:</h1>
+                            <h1>These are the amount of seconds I'm happy I didn't spend as anyone else's boyfriend:</h1>
                             <h1 id="counter">
                         
                             </h1>
