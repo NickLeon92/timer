@@ -3,7 +3,7 @@ const fs = require('fs')
 const app = express();
 const port = 3001;
 
-
+app.use(express.static(__dirname + '/public'));
 app.get("/", function (req, res) {
 
     var data = JSON.parse(fs.readFileSync('timestamp.json', 'utf8'))
