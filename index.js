@@ -47,6 +47,7 @@ app.get("/", function (req, res) {
                         <h1 id="counter">
                     
                         </h1>
+                        <h1> - Nick </h1>
                         <script>
                             console.log('adf')
                             setInterval(flashText, 1000);
