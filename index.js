@@ -26,7 +26,7 @@ app.get("/", function (req, res) {
 
         const timestampJSON = {"time" : unixStamp}
 
-        fs.writeFileSync('timestamp.json', JSON.stringify(timestampJSON), function writeJSON(err) {
+        fs.writeFileSync(__dirname + '/timestamp.json', JSON.stringify(timestampJSON), function writeJSON(err) {
             if (err) return console.log(err);
             console.log(JSON.stringify(file));
             console.log('writing to ' + fileName);
